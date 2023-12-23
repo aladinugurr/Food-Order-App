@@ -6,6 +6,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { StarRatingComponent } from '../../partials/star-rating/star-rating.component';
 import { SearchComponent } from '../../partials/search/search.component';
 import { TagsComponent } from '../../partials/tags/tags.component';
+import { NotFoundComponent } from '../../partials/not-found/not-found.component';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,7 @@ import { TagsComponent } from '../../partials/tags/tags.component';
     CommonModule,
     SearchComponent,
     TagsComponent,
+    NotFoundComponent,
   ],
 })
 export class HomeComponent {

@@ -19,3 +19,8 @@ body {
  a {
     text-decoration: none;
  }
+
+@mixin hover-link {
+    opacity: 1;
+    cursor: pointer;
+}

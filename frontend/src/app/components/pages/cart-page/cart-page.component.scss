@@ -1,3 +1,5 @@
+@import '../../../../styles.scss';
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -62,8 +64,7 @@ ul {
             outline: none;
             font-size: 1rem;
             &:hover {
-                opacity: 1;
-                cursor: pointer;
+               @include hover-link;
             }
         }
     }
@@ -103,8 +104,7 @@ ul {
         justify-self: center;
 
         &:hover {
-            opacity: 1;
-            cursor: pointer;
+            @include hover-link;
         }
     }
 }
